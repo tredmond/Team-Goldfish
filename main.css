@@ -1,0 +1,217 @@
+body {
+  background-color: rgb(225,235,245);
+  font-family: 'Raleway', sans-serif; /* css from April */
+}
+
+.page {
+  margin-top: 15px;
+
+}
+.bannerimg {
+  background-color: darkgray;
+  margin: 0 10% 20px 10%;
+}
+/*
+#nav {
+  background-color: darkgray;
+  /*text-align: center;
+}
+
+#nav ul {
+  display: inline-block;
+}
+#nav li {
+  display: inline-block; 
+  font: 40px;
+  margin: 10px 50px 10px 50px;
+  padding: 10px 50px 10px 50px;
+  border: solid blue;
+  background-color: lightblue;
+  
+}
+
+#nav li:hover {
+  background-color: blue;
+}
+
+#nav a:hover {
+  color: white;
+}
+
+nav li ul {
+
+}
+
+nav li ul li {
+}
+*/
+.header_img {
+  margin: auto;
+}
+
+img {
+   max-width: 100%;
+   max-height: 100%;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+
+
+h1 {
+  font-family: 'Nunito', san-serif;
+  text-align: center;
+}
+
+.link_container {
+  margin-left: 25%;
+  margin-right:25%;
+  background-color: rgba(192,192,192, 0.20);
+  max-width: 350px;
+  -webkit-border-top-left-radius: 8px;
+  font-family: 'Nunito', san-serif;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+aside {
+  background-color: #FFD4D1;
+  float: left;
+  margin-right: 50px;
+  width: 20%;
+  border-radius: 8px;
+  height: 300px;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+  background-color: rgba(192,192,192, 0.20);
+  border-radius: 8px;
+  color: black;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#contactform {
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+}
+
+dbutton {
+  margin-left: 12.5px;
+  
+}
+
+button {
+  border-radius: 5px;
+  color: fff;
+
+}
+#cbutton {
+  padding: 19px 39px 18px 39px;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  }
+
+.sitebutton {
+  margin-left: 45px;
+  width: 100px;
+  font-size: 1em;
+  background-color: black;
+}
+
+.question {
+  margin: 10px;
+  padding: 10px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+
+/* Links page */
+
+.link_container li {
+  font-family: Nunito; san-serif;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* offerings page CSS */
+#offerings {
+  color: #9966CC; 
+  font-family: Century Gothic
+}
+
+p {
+  color: gray;
+}
+
+tr {
+  color: gray; 
+}
+
+table, th, td {
+  border: 2px solid gray;
+  border-collapse: collapse
+}
+
+th {
+  text-align: right;
+}
+
+h2 {
+  color: #9966CC; 
+  font-family: Century Gothic
+}
+
+table, th, td {
+  border: 2px solid gray;
+  border-collapse: collapse
+}
+
+footer {
+  clear:both;
+  margin: 0 auto;
+}
+.footer-1 {
+  /*background-color: #CCC; */
+  min-height: 100px;
+  margin: 0 auto;
+}
+.nav-footer {
+  display: block;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-footer li {
+  display: inline-block;
+}
+.footer-2 {
+  background-color: darkgray;
+  min-height: 75px;
+  margin: 0 auto;
+}
+
