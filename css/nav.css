@@ -1,7 +1,7 @@
 #navigation {
     clear: both;
     text-align: center;
-    background: white;
+    background: white;  
 }
 #nav {
     text-align: left;
@@ -14,13 +14,16 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
 
+#nav a:visited {
+    color: black;
+}
 #nav li {
-    font: bold 12px/18px sans-serif;
+    font: bold 18px sans-serif;
     display: inline-block;
     margin-right: -4px;
     position: relative;
     background: #fff;
-    padding: 15px 20px;
+    padding: 15px 40px;
     
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -61,14 +64,19 @@
         background: #555; 
         display: block;
         color: #fff;
+        font-size: 14px;
         text-shadow: 0 -1px 0 #000;
         
     }
 
     #nav li ul li:hover { 
         background: #666; 
+
     }
 
+    #nav li ul li a:link {
+        color: #fff;
+    }
     #nav li ul li:hover a:visited {
         background: #666;
         color: #fff;
